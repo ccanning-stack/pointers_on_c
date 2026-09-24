@@ -1,0 +1,9 @@
+# ignore everything by default (binaries, build/, dSYM bundles, Emacs files)
+*
+# then whitelist the source files
+!.gitignore
+!Makefile
+!*.c
+!*.h
+!input.txt
+!README.md
